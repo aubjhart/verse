@@ -28,6 +28,34 @@ h2{
   margin: 0;
 }
 
+h3{
+  font-family: abril-display, serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 14px;
+  color: #435259;
+  margin: 0;
+  padding-top: 15px;
+}
+
+h4{
+  font-family: acumin-pro-wide, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: #435259;
+  margin: 0;
+}
+
+h4:hover {
+  font-family: acumin-pro-wide, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: #a8986e;
+  margin: 0;
+}
+
 img {
   width: 100%;
 }
@@ -68,15 +96,13 @@ button:hover{
   max-width: 1400px;
   padding: 90px;
   padding-top: 25px;
-  padding-bottom: 50px;
-  margin-bottom: 100px;
 }
 
 .header--section__top{
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   padding-top: 50px;
 }
 
@@ -94,6 +120,7 @@ button:hover{
   font-style: normal;
   font-size: 20px;
   color: white;
+  margin: 0;
 }
 
 .header--section__top__email__copy p{
@@ -157,10 +184,12 @@ button:hover{
 .header--section__bottom__nav{
   display: flex;
   flex-direction: row;
+  align-items: flex-start;
 }
 
 .header--section__bottom__nav p{
   padding-left: 30px;
+  margin: 0;
 }
 
 .header--section__bottom img{
@@ -191,15 +220,10 @@ button:hover{
   padding-bottom: 30px;
 }
 
-.recents--playlist__book__title p{
-  color: #435259;
-  text-decoration: none;
-  letter-spacing: .2em;
-  font-family: acumin-pro-wide, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
+.recents--playlist__book__title {
+
 }
+
 
 .recents--playlist__books{
   display: flex;
@@ -208,7 +232,11 @@ button:hover{
 }
 
 .recents--playlist__book{
-  width: 15%;
+  width: 14%;
+}
+
+.recents--playlist__book img{
+  padding-bottom: 20px;
 }
 
 .footer__wrap{
