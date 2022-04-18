@@ -9,6 +9,16 @@ body{
   font-style: normal;
 }
 
+h1{
+  font-family: acumin-pro-wide, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 65px;
+  line-height: 1.2;
+  color: white;
+  margin: 0;
+}
+
 h2{
   font-family: acumin-pro-wide, sans-serif;
   font-weight: 400;
@@ -46,6 +56,159 @@ button{
 
 button:hover{
   background-color: #cdba87;
+}
+
+.header__wrap{
+  width: 100%;
+  margin: 0 auto;
+  background-color: #435259;
+}
+
+.header{
+  max-width: 1400px;
+  padding: 90px;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  margin-bottom: 100px;
+}
+
+.header--section__top{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+.header--section__top__copy{
+  width: 40%;
+}
+
+.header--section__top__email{
+  width: 40%;
+}
+
+.header--section__top__email__copy{
+  font-family: abril-text, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  color: white;
+}
+
+.header--section__top__email__copy p{
+  font-family: abril-text, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  color: white;
+  display: inline;
+}
+
+.header--section__top__email p a{
+  color: #d1d5da;
+  font-family: acumin-pro-wide, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  text-decoration: none;
+  padding-left: 305px;
+}
+
+.header--section__top__email p a:hover{
+  color: white;
+}
+
+.header--section__top input[type="email"]{
+  font-family: abril-text, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  color: #435259;
+  margin-right: 5px;
+}
+
+.header--section__bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.header--section__bottom p a{
+  color: #a8986e;
+  text-decoration: none;
+  letter-spacing: .2em;
+  font-family: acumin-pro-wide, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+}
+
+.header--section__bottom p a:hover{
+  color: white;
+  text-decoration: none;
+  letter-spacing: .2em;
+  font-family: acumin-pro-wide, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+}
+
+.header--section__bottom__nav{
+  display: flex;
+  flex-direction: row;
+}
+
+.header--section__bottom__nav p{
+  padding-left: 30px;
+}
+
+.header--section__bottom img{
+  background-image: url('images/verso_logo_gold.png');
+  width: 125px;
+}
+
+.header--section__bottom img:hover{
+  background-image: url('images/verso_logo_white.png');
+  width: 125px;
+}
+
+.recents--playlist__wrap{
+  width: 100%;
+  margin: 0 auto;
+  background-color: #e4e3de;
+  padding: 90px;
+}
+
+.recents--playlist__wrap p{
+  color: #a8986e;
+  text-decoration: none;
+  letter-spacing: .2em;
+  font-family: acumin-pro-wide, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  padding-bottom: 30px;
+}
+
+.recents--playlist__book__title p{
+  color: #435259;
+  text-decoration: none;
+  letter-spacing: .2em;
+  font-family: acumin-pro-wide, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+}
+
+.recents--playlist__books{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1400px;
+}
+
+.recents--playlist__book{
+  width: 15%;
 }
 
 .footer__wrap{
