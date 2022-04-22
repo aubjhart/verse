@@ -239,6 +239,31 @@ button:hover{
   padding-bottom: 20px;
 }
 
+.feature--playlist__wrap{
+  background-color: #f5f4f0;
+  margin: auto;
+}
+
+.feature--playlist{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 1400px;
+  padding: 90px;
+}
+
+.feature--playlist__wrap__date{
+  transform: rotate(-90deg);
+}
+
+.feature--playlist__wrap__playlist{
+  padding-right: 20px;
+}
+
+.feature--playlist__wrap__main{
+  width: 45%;
+}
+
 .footer__wrap{
   width: 100%;
   margin: 0 auto;
