@@ -173,6 +173,10 @@ button:hover{
   align-items: flex-start;
 }
 
+.header--section__bottom__logo img{
+  width: 125px;
+}
+
 .header--section__bottom p a{
   color: #a8986e;
   text-decoration: none;
@@ -199,19 +203,16 @@ button:hover{
   align-items: flex-start;
 }
 
+
+.header--section__bottom__nav img{
+  width: 30px;
+  padding: 5px;
+  margin-bottom: -10px;
+}
+
 .header--section__bottom__nav p{
   padding-left: 30px;
   margin: 0;
-}
-
-.header--section__bottom img{
-  background-image: url('images/verso_logo_gold.png');
-  width: 125px;
-}
-
-.header--section__bottom img:hover{
-  background-image: url('images/verso_logo_white.png');
-  width: 125px;
 }
 
 .recents--playlist__wrap{
@@ -468,16 +469,16 @@ button:hover{
   flex-direction: row;
 }
 
+.footer--section__bottom__nav img{
+  width: 30px;
+  padding: 5px;
+  margin-bottom: -10px;
+}
+
 .footer--section__bottom__nav p{
   padding-left: 30px;
 }
 
-.footer--section__bottom img{
-  background-image: url('images/verso_logo_gold.png');
-  width: 125px;
-}
-
-.footer--section__bottom img:hover{
-  background-image: url('images/verso_logo_white.png');
+.footer--section__bottom__logo img{
   width: 125px;
 }
