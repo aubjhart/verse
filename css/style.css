@@ -86,6 +86,33 @@ button:hover{
   background-color: #cdba87;
 }
 
+.side_nav{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #e4e3de;
+  padding: 90px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  opacity: 95%;
+}
+
+.side_nav h2{
+  color: #435259;
+  padding-bottom: 15px;
+}
+
+.side_nav a{
+  color: #a8986e;
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+.side_nav a:hover{
+  color: #a8986e;
+  text-decoration: underline;
+}
+
 .header__wrap{
   width: 100%;
   margin: 0 auto;
