@@ -79,7 +79,7 @@ button{
   font-weight: 400;
   font-style: normal;
   font-size: 12px;
-   margin: 0;
+  margin: 0;
 }
 
 button:hover{
@@ -321,20 +321,9 @@ button:hover{
   margin: auto;
 }
 
-.feature--playlist__wrap__main h1{
-  font-family: acumin-pro-wide, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 65px;
-  line-height: 1.2;
-  color: #435259;
-  margin: 0;
-  padding-bottom: 15px;
-}
-
 .feature--playlist{
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   max-width: 1400px;
   padding: 90px;
@@ -362,7 +351,7 @@ button:hover{
   font-size: 12px;
   white-space: nowrap;
   padding-bottom: 50px;
-  margin-left: 35px;
+  margin-left: -200px;
 }
 
 .feature--playlist__wrap__playlist{
@@ -376,11 +365,22 @@ button:hover{
   width: 50%;
 }
 
+.feature--playlist__wrap__main h1{
+  font-family: acumin-pro-wide, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 65px;
+  color: #435259;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
 .feature--playlist__wrap__main p{
   font-family: abril-text, serif;
   font-weight: 300;
   font-style: normal;
   font-size: 20px;
+  line-height: 1.5;
   color: #435259;
 }
 
